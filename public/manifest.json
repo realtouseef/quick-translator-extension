@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Translator",
+  "version": "0.0.10",
+  "description": "Double-click text to translate it to English instantly.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
