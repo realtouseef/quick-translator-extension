@@ -1,8 +1,10 @@
 {
   "name": "quick-translator",
+  "description": "A simple chrome extension to translate selected text",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Touseef Ibn Khalil <touseefibnkhalil@gmail.com> (https://github.com/realtouseef)",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
